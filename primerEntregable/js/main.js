@@ -1,6 +1,6 @@
-let nombre = prompt("Cual es tu nombre? ").toUpperCase();
+let nombre = prompt("Cual es tu nombre?").toUpperCase();
 
-while (nombre != "ESC") {
+while (nombre != "si") {
     switch(nombre) {
         case "PEDRO":
             alert("Hola Pedro!");
@@ -15,10 +15,10 @@ while (nombre != "ESC") {
 
     let llueve = prompt("Está lloviendo " + nombre + "?").toUpperCase();
 
-    if (llueve = SI) {
+    if (llueve = "SI") {
         alert("Entonces, fijate de llevar paraguas.");
     } else { 
         alert("Sali sin cuidado entonces. ")
     }
-
+    nombre = prompt("desea salir? ingrese si");
 }
