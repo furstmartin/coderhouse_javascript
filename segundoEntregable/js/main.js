@@ -1,17 +1,24 @@
-let userName = 0
-let password = 0
-let confirmPassword = 0
-
-let userName = prompt("Ingrese su nombre de usuario: ");
-
-do {
-    let password = prompt("Ingrese su contraseña: ");
-    let confirmPassword = prompt ("Ingrese nuevamente su contraseña: ");
+function signUp (password_1, confirmPassword_1){
+    let password_1 = prompt("Ingrese su contraseña: ");
+    let confirmPassword_1 = prompt ("Ingrese nuevamente su contraseña: ");
 }
 
-while (password != confirmPassword){
+
+
+
+let user_Name = 0
+let password_1 = 0
+let confirmPassword_1 = 0
+
+let user_Name = prompt("Ingrese su nombre de usuario: ");
+
+do {
+    signUp();
+}
+
+while (password_1 != confirmPassword_1){
     alert("Sus contraseñas no conciden, por favor vuelva a ingresarlas");
-    if (password == confirmPassword){
+    if (password_1 == confirmPassword_1){
         console.log("Las contraseñas conciden");
         break;
     }
